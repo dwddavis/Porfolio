@@ -1,0 +1,48 @@
+/* Large and medium Screen */
+
+@media (min-width:768px){
+
+  #main1{
+    background-image: url(./images/main.png);
+    background-size:auto;
+    background-position:100% 70%;
+  }
+
+  #main2{
+    background-image: url(./images/plan.png);
+    background-size:auto;
+    background-position:0% 30%;
+
+  }
+
+  .row{
+    height:350px;
+  }
+
+  .container-fluid{
+    max-width: 1200px;
+    height: 100%;
+  }
+  .aspectRatioBox {
+    background-size: cover;
+  }
+
+
+  h2{
+    font-size: 4vw;
+    padding-right: 25px;
+    text-align:right;
+  }
+
+  h3{
+    font-size: 3vw;
+    font-weight: 300;
+    padding-right:10px;
+    text-align: right;
+  }
+
+  #list1{
+    font-size:2.5vw;
+
+  }
+}
