@@ -8,11 +8,23 @@
     background-position:100% 70%;
   }
 
+  #list1{
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%);
+    height:100%;
+    font-size:2.0vw;
+    font-weight:400;
+
+  }
+
+
   #main2{
     background-image: url(./images/plan.png);
     background-size:auto;
     background-position:0% 30%;
-
+  }
+  #text1{
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%);
+    height:100%;
   }
 
   .row{
@@ -22,9 +34,7 @@
   .container-fluid{
     max-width: 1200px;
     height: 100%;
-  }
-  .aspectRatioBox {
-    background-size: cover;
+
   }
 
 
@@ -41,8 +51,79 @@
     text-align: right;
   }
 
-  #list1{
-    font-size:2.5vw;
+  #photo1{
+    height:60%;
+    position: relative;
 
   }
+
+
+
 }
+
+
+
+
+
+/*-----medium----*/
+@media(max-width: 768px){
+  #list1{
+    font-size:4.0vw;
+  }
+
+  h2{
+    font-size: 5vw;
+
+  }
+
+  h3{
+    font-size: 4vw;
+
+}
+
+/*------------small screen-------------*/
+
+@media (max-width:768px){
+  #smNavbar{
+    font-size:4vw;
+    font-weight:600;
+    max-width:100%;
+    position:absolute;
+    text-align:center;
+
+    }
+
+  #navbar{
+    max-width:100%;
+    background-image: url(./images/main.png);
+    background-size:100%;
+    background-position:0% 30%;
+    height:350px;
+
+  }
+
+  #sm-main{
+    max-width:100%;
+    background-image: url(./images/plan.png);
+    background-size:100%;
+    background-position:0% 30%;
+    height:350px;
+  }
+
+  a{
+    position:relative;
+    color:white;
+    text-decoration: underline;
+
+  }
+
+
+  a div:hover{
+      font-size:150%;
+      text-decoration: underline;
+
+    }
+  }
+
+
+/*--------general--------*/

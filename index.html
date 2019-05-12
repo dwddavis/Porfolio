@@ -12,14 +12,16 @@
   <body>
 <!--Large and medium -->
 <div class="d-none d-md-inline">
-  <div class="container-fluid border p-0 m-0 border-primary">
-    <div class="row p-0 m-0 border border-danger p-0 m-0">
+  <div class="container-fluid border p-0 m-0">
+    <div class="row p-0 m-0">
       <div class="col-12 aspectRatioBox d-inline p-0" id="main1">
-        <ul style="list-style-type:none" class="pl-0 ml-0" id="list1">
-          <li class="py-2 text-white">Home</li>
-          <li class="py-2 text-white">Files</li>
-          <li class="py-2 text-white">Clones</li>
-          <li class="py-2 text-white">About</li>
+        <ul style="list-style-type:none" class="pl-1 pt-4 ml-0" id="list1">
+          <li class="py-2"><a href="index.html" class="text-dark">Home</a></li>
+          <li class="py-2"><a href="#" class="text-dark">Files</a></li>
+          <li class="py-2"><a href="#" class="text-dark">Clones</a></li>
+          <li class="py-2"><a href="#" class="text-dark">About</a></li>
+          <li class="py-2"><a href="https://github.com/dwddavis" class="text-dark">GitHub</a></li>
+          <li class="py-2"><a href="https://www.linkedin.com/in/damien-davis-37116489/" class="text-dark">LinkedIn</a></li>
         </ul>
       </div>
     </div>
@@ -27,15 +29,38 @@
 </div>
 
 <div class="d-none d-md-inline">
-  <div class="container-fluid border p-0 m-0 border-primary">
-    <div class="row p-0 m-0 border border-danger p-0 m-0">
-      <div class="col-12 aspectRatioBox d-inline p-0" id="main2">
-        <h2>Damien W. Davis</h2>
-        <h3>FrontEnd Web Developer</h3>
+  <div class="container-fluid border p-0 m-0">
+    <div class="row p-0 m-0">
+      <div class="col-12 p-0 pt-4" id="main2">
+        <div id="text1">
+          <h2>Damien W. Davis</h2>
+          <h3>FrontEnd Web Developer</h3>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+<!--Small and Xsmall-->
+
+<nav class="d-flex d-md-none navbar justify-content-center mx-0 px-0" id="navbar">
+  <div class="mx-0 px-0" id="smNavbar">
+      <a class="nav-item nav-link px-2" href="#"><div class="px-2">Home</div></a>
+      <a class="nav-item nav-link px-2" href="#"><div class="px-2">Files</div></a>
+      <a class="nav-item nav-link px-2" href="#"><div class="px-2">Clones</div></a>
+      <a class="nav-item nav-link px-2" href="#"><div class="px-2">About</div></a>
+      <a class="nav-item nav-link px-2" href="#"><div class="px-2">GitHub</div></a>
+      <a class="nav-item nav-link px-2" href="#"><div class="px-2">LinkedIn</div></a>
+  </div>
+</nav>
+
+<div class="d-md-none col-12" id="sm-main">
+  <div id="sm-text">
+    <h2>Damien W. Davis</h2>
+    <h3>FrontEnd Web Developer</h3>
+  </div>
+</div>
+
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
