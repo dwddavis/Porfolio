@@ -6,16 +6,29 @@
     background-image: url(./images/main.png);
     background-size:auto;
     background-position:100% 70%;
+
   }
 
-  #list1{
+  .navbar {
+    overflow:;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:100;
 
-    height:100%;
+
+
+  }
+  #list1{
+    height:40px;
     font-size:25px;
     font-weight:400;
     text-shadow: 1px 1px black;
+    padding-top:0px;
 
-  }
+}
+
 
   #main2{
     background-image: url(./images/plan.png);
@@ -34,17 +47,12 @@
     height:350px;
   }
 
-  .container-fluid{
-    height: 100%;
-
-  }
-
 
   h1{
     font-weight:400;
     padding-right: 25px;
     text-align:center;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px lightgray;
   }
 
   h2{
@@ -53,15 +61,6 @@
     text-align: center;
     text-shadow: 1px 1px white;
   }
-
-  #photo1{
-    height:60%;
-    position: relative;
-
-  }
-
-
-
 }
 
 
@@ -71,14 +70,16 @@
 
 @media (max-width:768px){
 
+
   #smnav{
     padding-top:0;
     z-index: 3;
+    background-color: #333;
 
   }
   .navlist{
     list-style-type: none;
-    background-color: lightgray;
+    height:250px;
 
 }
 
@@ -94,9 +95,12 @@
   }
 
 
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-
-  }
 
   #sm-main{
     margin-top:-50px;
@@ -108,24 +112,11 @@
     height:700px;
   }
 
-#sm-text{
-  color: white;
-  text-shadow: 2px 2px black;
-  text-align: center;
-  padding-top: 100px
-
-}
-
-  a:hover{
-    text-decoration-color: lightgray;
-    text-decoration: underline;
-
-  }
-
-
-  a div:hover{
-      text-decoration-color:lightgray;
-      text-decoration: underline;
+  #sm-text{
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding-top: 200px
 
     }
 
@@ -144,13 +135,13 @@
 
 /*--------general--------*/
 
-#mainport{
-  text-align: center;
-}
+
 
 .img-thumbnail{
   height:auto;
-  width:540px;
+  width:100%;
+
+
 }
 
 hr{
@@ -163,4 +154,15 @@ p{
 
 .aboutme{
   height:60px;
+}
+
+
+a:hover{
+  text-decoration: underline;
+  font-size:110%;
+
+}
+
+img:hover{
+  transform: scale(1.1);
 }

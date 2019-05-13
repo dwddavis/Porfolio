@@ -10,22 +10,23 @@
     <title>Damien Davis Portfolio</title>
   </head>
   <body>
-<!--Large and medium -->
-<div class="d-none d-md-inline">
-  <div class="container-fluid border p-0 m-0">
+
+<!Large and medium -->
+<nav class="">
+  <div class="container-fluid p-0 m-0">
     <div class="row p-0 m-0">
-      <div class="col-12 aspectRatioBox d-inline p-0" id="main1">
-        <ul style="list-style-type:none" class="pl-1 pt-4 ml-0" id="list1">
-          <li class="nonlink py-2"><a href="index.html" class="text-white">Home</a></li>
-          <li class="nonlink py-2"><a href="#" class="text-white">Portfolio</a></li>
-          <li class="nonlink py-2"><a href="#" class="text-white">About</a></li>
-          <li class="py-2"><a href="https://github.com/dwddavis" class="text-white">🔗 GitHub</a></li>
+      <div class="col-12 d-inline p-0" id="main1">
+        <ul style="list-style-type:none" class="navbar pl-1 ml-0 d-flex justify-content-center" id="list1">
+          <li class="nonlink py-0 px-4"><a href="index.html" class="text-white">Home</a></li>
+          <li class="nonlink py-0 px-4"><a href="#portfolio" class="text-white">Portfolio</a></li>
+          <li class="nonlink py-0 px-4"><a href="#aboutme" class="text-white">About</a></li>
+          <li class="py-0 px-4"><a href="https://github.com/dwddavis" class="text-white">🔗 GitHub</a></li>
           <li class="py-2"><a href="https://www.linkedin.com/in/damien-davis-37116489/" class="text-white">🔗 LinkedIn</a></li>
         </ul>
       </div>
     </div>
   </div>
-</div>
+</nav>
 
 <div class="d-none d-md-inline">
   <div class="container-fluid p-0 m-0">
@@ -42,26 +43,25 @@
 
 <!--Small and Xsmall-->
 
-<nav class="navbar navbar-expand-lg navbar-dark" id="smnav">
-  <div class="container-fluid" id="base">
+<nav class="d-md-none navbar navbar-default sticky navbar-dark" id="smnav">
+  <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="index.html">Damien W. Davis</a>
     </div>
       <button class="navbar-toggler position-relative collapsed" role="button" data-toggle="collapse" href="#myNavbar" id="navbarMenuToggler"><span class="navbar-toggler-icon"></span></button>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="d-md-none navlist">
+      <ul class="navlist">
         <li><a class="nav-item nav-link px-2" href="index.html">Home</a></li>
         <hr>
         <li><a class="nav-item nav-link px-2" href="#">Portfolio</a></li>
         <hr>
         <li><a class="nav-item nav-link px-2" href="#">About</a></li>
         <hr>
-        <li><a class="nav-item nav-link px-2" href="#">GitHub</a></li>
+        <li><a class="nav-item nav-link px-2" href="https://github.com/dwddavis">GitHub</a></li>
         <hr>
-        <li><a class="nav-item nav-link px-2" href="#">LinkedIn</a></li>
+        <li><a class="nav-item nav-link px-2" href="https://www.linkedin.com/in/damien-davis-37116489/">LinkedIn</a></li>
       </ul>
-
   </div>
 </nav>
 
@@ -74,14 +74,14 @@
 
 <!--Portfolio-->
 <hr>
-<div class="container-fluid">
+<div class="container-fluid p-0 m-0">
     <div class="col-12">
-      <h1 class="position-relative">Portfolio</h1>
+      <h1 class="position-relative" id="portfolio">Portfolio</h1>
     </div>
 </div>
 
 <div class="container-fluid">
-  <div class="row portrow py-2">
+  <div class="row py-2 d-flex justify-content-around">
     <div class="col-12 col-md-6 p-4">
       <a href="#"><img src="./images/apple.png" class="img-thumbnail img-fluid" alt="apple"></a>
       <article><em>Apple front page clone</em></article>
@@ -91,7 +91,7 @@
       <article><em>Newsweek front page clone</em></article>
     </div>
   </div>
-  <div class="row portrow py-2">
+  <div class="row py-2 d-flex">
     <div class="col-12 col-md-6 p-4">
         <a href="#"><img src="./images/airbnb.png" class="img-thumbnail img-fluid" alt="airbnb"></a>
         <article><em>Airbnb front page clone</em></article>
@@ -105,8 +105,9 @@
 
 <hr class="mt-4">
 
+<!--ABout ME-->
 <div class="container-fluid">
-  <div class="row aboutme">
+  <div class="row aboutme" id="aboutme">
     <div class="col-12">
       <h1 class="position-relative py-0">About Me</h1>
     </div>
