@@ -16,12 +16,11 @@
     <div class="row p-0 m-0">
       <div class="col-12 aspectRatioBox d-inline p-0" id="main1">
         <ul style="list-style-type:none" class="pl-1 pt-4 ml-0" id="list1">
-          <li class="py-2"><a href="index.html" class="text-dark">Home</a></li>
-          <li class="py-2"><a href="#" class="text-dark">Files</a></li>
-          <li class="py-2"><a href="#" class="text-dark">Clones</a></li>
-          <li class="py-2"><a href="#" class="text-dark">About</a></li>
-          <li class="py-2"><a href="https://github.com/dwddavis" class="text-dark">GitHub</a></li>
-          <li class="py-2"><a href="https://www.linkedin.com/in/damien-davis-37116489/" class="text-dark">LinkedIn</a></li>
+          <li class="nonlink py-2"><a href="index.html" class="text-white">Home</a></li>
+          <li class="nonlink py-2"><a href="#" class="text-white">Portfolio</a></li>
+          <li class="nonlink py-2"><a href="#" class="text-white">About</a></li>
+          <li class="py-2"><a href="https://github.com/dwddavis" class="text-white">🔗 GitHub</a></li>
+          <li class="py-2"><a href="https://www.linkedin.com/in/damien-davis-37116489/" class="text-white">🔗 LinkedIn</a></li>
         </ul>
       </div>
     </div>
@@ -29,12 +28,12 @@
 </div>
 
 <div class="d-none d-md-inline">
-  <div class="container-fluid border p-0 m-0">
+  <div class="container-fluid p-0 m-0">
     <div class="row p-0 m-0">
       <div class="col-12 p-0 pt-4" id="main2">
         <div id="text1">
-          <h2>Damien W. Davis</h2>
-          <h3>FrontEnd Web Developer</h3>
+          <h1>Damien W. Davis</h1>
+          <h2>FrontEnd Web Developer</h2>
         </div>
       </div>
     </div>
@@ -43,23 +42,88 @@
 
 <!--Small and Xsmall-->
 
-<nav class="d-flex d-md-none navbar justify-content-center mx-0 px-0" id="navbar">
-  <div class="mx-0 px-0" id="smNavbar">
-      <a class="nav-item nav-link px-2" href="#"><div class="px-2">Home</div></a>
-      <a class="nav-item nav-link px-2" href="#"><div class="px-2">Files</div></a>
-      <a class="nav-item nav-link px-2" href="#"><div class="px-2">Clones</div></a>
-      <a class="nav-item nav-link px-2" href="#"><div class="px-2">About</div></a>
-      <a class="nav-item nav-link px-2" href="#"><div class="px-2">GitHub</div></a>
-      <a class="nav-item nav-link px-2" href="#"><div class="px-2">LinkedIn</div></a>
+<nav class="navbar navbar-expand-lg navbar-dark" id="smnav">
+  <div class="container-fluid" id="base">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Damien W. Davis</a>
+    </div>
+      <button class="navbar-toggler position-relative collapsed" role="button" data-toggle="collapse" href="#myNavbar" id="navbarMenuToggler"><span class="navbar-toggler-icon"></span></button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="d-md-none navlist">
+        <li><a class="nav-item nav-link px-2" href="index.html">Home</a></li>
+        <hr>
+        <li><a class="nav-item nav-link px-2" href="#">Portfolio</a></li>
+        <hr>
+        <li><a class="nav-item nav-link px-2" href="#">About</a></li>
+        <hr>
+        <li><a class="nav-item nav-link px-2" href="#">GitHub</a></li>
+        <hr>
+        <li><a class="nav-item nav-link px-2" href="#">LinkedIn</a></li>
+      </ul>
+
   </div>
 </nav>
 
 <div class="d-md-none col-12" id="sm-main">
   <div id="sm-text">
-    <h2>Damien W. Davis</h2>
-    <h3>FrontEnd Web Developer</h3>
+    <h1 id="headsmall1">Damien W. Davis</h1>
+    <h2 id="headsmall2">FrontEnd Web Developer</h2>
   </div>
 </div>
+
+<!--Portfolio-->
+<hr>
+<div class="container-fluid">
+    <div class="col-12">
+      <h1 class="position-relative">Portfolio</h1>
+    </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row portrow py-2">
+    <div class="col-12 col-md-6 p-4">
+      <a href="#"><img src="./images/apple.png" class="img-thumbnail img-fluid" alt="apple"></a>
+      <article><em>Apple front page clone</em></article>
+    </div>
+    <div class="col-12 col-md-6 p-4">
+      <a href="#"><img src="./images/newsweek.png" class="img-thumbnail img-fluid" alt="newsweek"></a>
+      <article><em>Newsweek front page clone</em></article>
+    </div>
+  </div>
+  <div class="row portrow py-2">
+    <div class="col-12 col-md-6 p-4">
+        <a href="#"><img src="./images/airbnb.png" class="img-thumbnail img-fluid" alt="airbnb"></a>
+        <article><em>Airbnb front page clone</em></article>
+    </div>
+    <div class="col-12 col-md-6 p-4">
+        <a href="#"><img src="./images/press.png" class="img-thumbnail img-fluid" alt="press"></a>
+        <article><em>Airbnb press page clone</em></article>
+    </div>
+  </div>
+</div>
+
+<hr class="mt-4">
+
+<div class="container-fluid">
+  <div class="row aboutme">
+    <div class="col-12">
+      <h1 class="position-relative py-0">About Me</h1>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row position-relative">
+    <div class="col-8">
+        <p>I love technology and science. I started out my professional career as a chemist in the Oil and Gas industry and decided to try a new career path. Already having a well rounded background in computer hardware and software, I decided to move into the web design space and become a Full Stack Developer. For question I can be reached at dwddavis@yahoo.com.</p>
+      </div>
+      <div class="col-4">
+        <img src="./images/self.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
